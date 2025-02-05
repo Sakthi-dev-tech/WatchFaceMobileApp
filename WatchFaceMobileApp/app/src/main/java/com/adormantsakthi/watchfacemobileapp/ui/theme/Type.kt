@@ -47,5 +47,10 @@ val Typography = Typography(
         fontFamily = AbhayaLibreFontFamily,
         fontWeight = FontWeight.ExtraBold,
         fontSize = 40.sp
+    ),
+    bodyMedium = TextStyle(
+        fontFamily = AbhayaLibreFontFamily,
+        fontWeight = FontWeight.SemiBold,
+        fontSize = 24.sp
     )
 )
