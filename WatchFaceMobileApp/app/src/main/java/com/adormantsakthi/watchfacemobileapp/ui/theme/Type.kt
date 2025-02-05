@@ -41,5 +41,11 @@ val Typography = Typography(
         fontFamily = AbhayaLibreFontFamily,
         fontWeight = FontWeight.Normal,
         fontSize = 32.sp
+    ),
+
+    displayLarge = TextStyle(
+        fontFamily = AbhayaLibreFontFamily,
+        fontWeight = FontWeight.ExtraBold,
+        fontSize = 40.sp
     )
 )

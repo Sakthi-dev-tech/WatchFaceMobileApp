@@ -92,7 +92,7 @@ fun Homescreen() {
                 .fillMaxWidth(0.9f)
                 .height(400.dp)
                 .clip(RoundedCornerShape(50.dp))
-                .background(Color(56, 56, 56))
+                .background(MaterialTheme.colorScheme.primaryContainer)
         )
 
         Spacer(modifier = Modifier.height(125.dp))
