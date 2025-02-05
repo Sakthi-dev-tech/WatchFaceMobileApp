@@ -12,6 +12,12 @@ val LangarFontFamily = FontFamily(
     Font(R.font.langar_regular, FontWeight.Normal)
 )
 
+val AbhayaLibreFontFamily = FontFamily(
+    Font(R.font.abhayalibre_regular, FontWeight.Normal),
+    Font(R.font.abhayalibre_semibold, FontWeight.SemiBold),
+    Font(R.font.abhayalibre_extrabold, FontWeight.ExtraBold)
+)
+
 // Set of Material typography styles to start with
 val Typography = Typography(
     bodyLarge = TextStyle(
@@ -24,5 +30,16 @@ val Typography = Typography(
     titleMedium = TextStyle(
         fontFamily = LangarFontFamily,
         fontSize = 24.sp
+    ),
+    displaySmall = TextStyle(
+        fontFamily = AbhayaLibreFontFamily,
+        fontWeight = FontWeight.Normal,
+        fontSize = 14.sp
+    ),
+
+    displayMedium = TextStyle(
+        fontFamily = AbhayaLibreFontFamily,
+        fontWeight = FontWeight.Normal,
+        fontSize = 32.sp
     )
 )
